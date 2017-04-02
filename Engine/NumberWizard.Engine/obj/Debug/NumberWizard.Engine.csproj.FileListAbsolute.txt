@@ -1,0 +1,5 @@
+D:\Games\NumberWizard\Engine\NumberWizard.Engine\obj\Debug\NumberWizard.Engine.csprojResolveAssemblyReference.cache
+D:\Games\NumberWizard\Engine\NumberWizard.Engine\bin\Debug\NumberWizard.Engine.dll
+D:\Games\NumberWizard\Engine\NumberWizard.Engine\bin\Debug\NumberWizard.Engine.pdb
+D:\Games\NumberWizard\Engine\NumberWizard.Engine\obj\Debug\NumberWizard.Engine.dll
+D:\Games\NumberWizard\Engine\NumberWizard.Engine\obj\Debug\NumberWizard.Engine.pdb
