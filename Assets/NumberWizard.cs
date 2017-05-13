@@ -21,7 +21,7 @@ public class NumberWizard : MonoBehaviour {
 
 	private void StartGame()
 	{
-		maxGuessAllowed = 11;
+		maxGuessAllowed = 10;
 		maxNumber = MaxNumber + 1; // plus one to handle max number as guessed number.
 		minNumber = MinNumber;
 
@@ -50,7 +50,7 @@ public class NumberWizard : MonoBehaviour {
 		GuessedNumberText.text = "Is " + guessedNumber + " your number?";
 		maxGuessAllowed = maxGuessAllowed - 1;
 		RemainingGuessesText.text = (maxGuessAllowed <= 1 ? "Guess" : "Guesses") + " remaining : " + maxGuessAllowed;
-		if (maxGuessAllowed <= 0) {
+		if (maxGuessAllowed < 0) {
 			SceneManager.LoadScene ("Win");
 		}
 	}
